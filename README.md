@@ -1,4 +1,4 @@
-# enrichment-activities-build
+# enrichment-activities-build-test
 Build folder of Enrichment Activities app for deployment and then embed
 
 **1. enter [yarn build] in enrichment-activities repo**
@@ -9,9 +9,9 @@ Build folder of Enrichment Activities app for deployment and then embed
 
     - /static/css/main.#######.chunk.css    →    /static/css/main.css
 
-    - /static/js/2.######.chunk.js          →    /static/js/chunk1.js
+    - /static/js/2.######.chunk.js          →    /static/js/chunk.js
 
-    - /static/js/main.######.chunk.js       →    /static/js/chunk2.js
+    - /static/js/main.######.chunk.js       →    /static/js/main.js
 
     - /static/js/runtime-main.######.js     →    /static/js/runtime-main.js
 
@@ -23,8 +23,8 @@ Build folder of Enrichment Activities app for deployment and then embed
 <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 <link rel="stylesheet" type="text/css" href="./static/css/main.css">
-<script src="./static/js/chunk1.js"></script>
-<script src="./static/js/chunk2.js"></script>
+<script src="./static/js/chunk.js"></script>
+<script src="./static/js/main.js"></script>
 <script src="./static/js/runtime-main.js"></script>
 ```
      
@@ -39,8 +39,8 @@ Build folder of Enrichment Activities app for deployment and then embed
 <div id="divRoot"></div>
 <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://schoolclosures.github.io/enrichment-activities-build/static/css/main.css">
-<script src="https://schoolclosures.github.io/enrichment-activities-build/static/js/chunk1.js"></script>
-<script src="https://schoolclosures.github.io/enrichment-activities-build/static/js/chunk2.js"></script>
-<script src="https://schoolclosures.github.io/enrichment-activities-build/static/js/runtime-main.js"></script>
+<link rel="stylesheet" type="text/css" href="https://schoolclosures.github.io/enrichment-activities-build-test/static/css/main.css">
+<script src="https://schoolclosures.github.io/enrichment-activities-build-test/static/js/chunk.js"></script>
+<script src="https://schoolclosures.github.io/enrichment-activities-build-test/static/js/main.js"></script>
+<script src="https://schoolclosures.github.io/enrichment-activities-build-test/static/js/runtime-main.js"></script>
 ```
